@@ -75,7 +75,7 @@ while True:
     print(f'tedad sefaresh:{tedad} gheymat sefaresh:{gheymat}')
     print(f'gheymatkol:{gheymatkol} komision peyke:{gheymatkol*0.05}')
  elif m_k==5:
-    print('shomare restoran:02631766449') 
+    print('shomare restoran:02631766449')
  o=input('braye hazf kardan yek item R ra feshar dahid--->')
  if o=='R':
   print(factor)
