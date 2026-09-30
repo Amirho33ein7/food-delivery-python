@@ -80,12 +80,12 @@ while True:
  T=datetime.datetime.now()
  o=input('braye hazf kardan yek item R ra feshar dahid--->')
  if o=='R':
-  print(factor,T.strftime("%d/%m/%Y"))
+  print(factor,T.strftime("%d/%m/%Y---%H:%M"))
   
   factor.remove(factor[int(input(' yek adad ra vared konid--->'))])
  X=input('braye khoroj dokme E ra feshar dahid --->')
  if X=='E':
    print('kharej shodid⛔')
    
-   print(factor,T.strftime("%d/%m/%Y"))
+   print(factor,T.strftime("%d/%m/%Y---%H:%M"))
    break
